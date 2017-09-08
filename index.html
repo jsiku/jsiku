@@ -7,7 +7,6 @@ layout: default
                 <h2>{{ site.harmony.description }}</h2>
                 {% include header-links.html %}                
             </div>
-</header>
 {% for post in site.posts %}
 {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
 {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
@@ -19,3 +18,4 @@ layout: default
         <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
 {% endunless %}
 {% endfor %}
+</header>
