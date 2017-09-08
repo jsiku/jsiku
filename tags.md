@@ -22,12 +22,12 @@ published: true
   <div class="archive-group">
 {% unless tag.first == 'memo' %}
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>
+    <h4 id="#{{ tag_name | slugize }}">{{ tag_name }}</h4>
     <a name="{{ tag_name | slugize }}"></a>
 {% endunless %}
     {% for post in site.tags[tag_name] %}
     <article class="archive-item">
-      <h4><a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></h4>
+      <h5><a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></h5>
     </article>
     {% endfor %}
   </div>
