@@ -4,16 +4,16 @@
 baseurl: /harmony
 
 # Site live URL
-url: http://gayan.me
+# url: http://gayan.me
 
 # Localhost 
 # url: http://127.0.0.1:4000  
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
-  name: Harmony
+  name: Siku.name
   # Little description about your site
-  description: Harmony is free responsive jekyll theme.
+  description: miscellaneous papers
   # 'meta_description:' Write an awesome description for your new site here.
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
@@ -23,12 +23,15 @@ harmony:
    https://github.com/gayanvirajith/harmony
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
-    name: Gayan Virajith
-    email: gayanvirajith@gmail.com
-    url: http://gayanvirajith.github.io
+    name: jsiku. cho
+    email: j.siku.cho@gmail.com
+    url: http://jsiku.github.io 
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-xxxx-x
+  
+  # Comments
+disqus-shortname: sikujekyll
 
   # Profile links, leave blank to ignore
   social: 
