@@ -1,39 +1,21 @@
 ---
 layout: default
 ---
-<div id="home" class="page-content wc-container">
-	<div class="posts">
-  		{% for post in site.posts limit:10 %}
-  			<div class="post">
-    			<h3 class="post-title">
-			      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-			        {{ post.title }}
-			      </a>
-    			</h3>
-
-          <p class="post-meta">
-            {% if post.categories.size > 0 %}
-            <span class="categories">
-            {{ post.categories | array_to_sentence_string }}
-            </span> |
-            {% endif %}
-            <span class="post-date">
-            {{ post.date | date: "%b %-d, %Y" }} 
-            </span>
-          </p>          
-    			    			
-  				<p>
-	  				{{ post.excerpt }}	
-  				</p>
-  				<p>
-  					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
-  						Read More
-					</a>
-  				</p>
-  			</div>
-  		{% endfor %}
-	</div>
-	<div class="post-footer">
-		<div class="column-full"><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></div>
-	</div>
-</div>
+<header class="main-header">
+            <div class="wc-container">
+                <h1><a href="{{ site.baseurl }}/">{{ site.harmony.name }}</a></h1>
+                <h2>{{ site.harmony.description }}</h2>
+                {% include header-links.html %}                
+            </div>
+</header>
+{% for post in site.posts %}
+{% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
+{% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
+{% if month != nmonth %}
+{% if forloop.index != 1 %}</ul>{% endif %}
+<span>{{ post.date | date: '%Y-%m' }}</span><ul>
+{% endif %}
+{% unless post.tags contains 'memo' %}
+        <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+{% endunless %}
+{% endfor %}
