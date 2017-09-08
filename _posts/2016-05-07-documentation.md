@@ -2,7 +2,7 @@
 layout: post
 title: Documentation
 tags: simple sample documentation
-published: false
+published: true
 ---
 * Do not remove this line (it will not be displayed) 
 {:toc}
