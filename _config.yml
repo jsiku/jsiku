@@ -19,7 +19,7 @@ harmony:
   # in your feed.xml site description.
   meta_description: > # 
    Jsiku is a first blog on hiw owns
-  basetheme: theme-base-02 # pre defined thmes are darken, blue-water, redish.
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Jsiku Cho
     email: gmail.com
@@ -30,11 +30,11 @@ harmony:
 
   # Profile links, leave blank to ignore
   social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +GayanVirajith
-    dribble: gayan
+    github: jsiku
+    twitter: 
+    facebook: 
+    gplus: 
+    dribble: 
     pinterest: 
   # Toggle disclaimer in footer
   show_disclaimer: true
