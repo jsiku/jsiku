@@ -11,11 +11,11 @@ layout: default
 {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
 {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
 {% if month != nmonth %}
-{% if forloop.index != 1 %}</ul>{% endif %}
-{{ post.date | date: '%Y-%m' }}<ul>
+{% if forloop.index != 1 %}{% endif %}
+{{ post.date | date: '%Y-%m' }}
 {% endif %}
 {% unless post.tags contains 'memo' %}
-        <h4><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h4>
+        <h3><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
 {% endunless %}
 {% endfor %} </div>
 </header>
