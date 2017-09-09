@@ -26,7 +26,9 @@ harmony:
     url: http://github.io/jsiku/
 
   # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
+google_analytics_key: UA-xxxx-x
+disqus-shortname: sikujekyll
+
 
   # Profile links, leave blank to ignore
   social: 
