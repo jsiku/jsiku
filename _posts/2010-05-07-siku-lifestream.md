@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-tags: lifestreaming sns feed data-flow dqus
+tags: lifestreaming sns feed data-flow
+comments: true
 date: '2010-05-07 01:36:00 +0900'
 comment: false
 comments: false
