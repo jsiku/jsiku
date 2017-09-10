@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: Google Friend Connect를 달았습니다.
-tags: dqus googlefriendconnect google friend connect sns
+tags: googlefriendconnect google friend connect sns
+comments: true
 date: '2009-03-04 14:19 +0900'
 author: siku
 ---
