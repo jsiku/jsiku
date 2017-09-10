@@ -5,7 +5,7 @@ permalink: /tags/
 published: true
 ---
 
-<ul class="tag-cloud">
+<ul>
 {% for tag in site.tags %}
   <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
 {% unless tag.first == 'memo' %}
@@ -17,10 +17,10 @@ published: true
 {% endfor %}
 </ul>
 
-<div id="archives">
+
 {% for tag in site.tags %}
-  <div class="archive-group">
-{% unless tag.first == 'memo' %}
+ 
+ {% unless tag.first == 'memo' %}
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <h4 id="#{{ tag_name | slugize }}">{{ tag_name }}</h4>
     <a name="{{ tag_name | slugize }}"></a>
@@ -30,6 +30,6 @@ published: true
       <h5><a href="{{site.baseurl}}{{ post.url }}">{{post.title}}</a></h5>
     </article>
     {% endfor %}
-  </div>
+ 
 {% endfor %}
-</div>
+
