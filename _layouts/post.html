@@ -35,6 +35,10 @@ layout: default
 		</ul>
 	</div>
 	{% endif %}
+	
+	{% if page.comments %}
+	{% include disqus.html %}
+	{% endif %}
 
 	<div class="post-footer">
 		<div class="column-1">
