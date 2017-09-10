@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 가제트, 위젯? 이용기. (Google, Live)
-date:2006-12-12 10:35:47 +0900'
+date: '2006-12-12 10:35:47 +0900'
 author: Siku
 published: true
 tags: 가제트
