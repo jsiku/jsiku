@@ -1,6 +1,6 @@
 ---
 layout : post
-title: [자전거 리뷰] Blackcat compact
+title: Blackcat compact
 date: '2007-10-29 12:37:00 +0900'
 author: Siku_textcube
 published: true
