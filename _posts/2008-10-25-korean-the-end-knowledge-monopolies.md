@@ -2,7 +2,8 @@
 published: true
 title: 지식독점의 종말
 date: '2008-10-25 14:28:00 +0900'
-tags: 오픈이노베이션 제식독점의 종말 dqus
+tags: 오픈이노베이션 제식독점의 종말
+comments: true
 author: siku
 layout: post
 ---
