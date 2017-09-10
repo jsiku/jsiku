@@ -1,6 +1,6 @@
 ---
 layout : post
-title: [자전거 리뷰] EPOCA
+title: EPOCA
 date: '2007-10-29 13:10:00 +0900'
 author: Siku_textcube
 published: true
