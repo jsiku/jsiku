@@ -1,11 +1,10 @@
 ---
+title: 발로 그린 lifestreaming data flow
 published: true
 layout: post
 tags: lifestreaming sns feed data-flow
 comments: true
 date: '2010-05-07 01:36:00 +0900'
-comment: false
-comments: false
 ---
 - sns.jsiku.com(폐쇄)에서 옮김
 
