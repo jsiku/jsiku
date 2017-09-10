@@ -1,7 +1,8 @@
 ---
 published: true
 date: '2008-05-30 08:33:00 +0900'
-tags: 공부 러너스하이 블로그 dqus
+tags: 공부 러너스하이 블로그
+comments: true
 title: 러너스하이와 공부
 layout: post
 author: siku_textcube
