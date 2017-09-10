@@ -3,8 +3,9 @@ published: true
 layout: post
 title: The End of the Knowledge Monopolies
 date: '2008-10-25 13:02:00 +0900'
-tags: dqus open innovation knowledge diffusion
-author: null
+tags: open innovation knowledge diffusion
+comments: true
+author: siku
 ---
 ## 1. The indicators of Knowledge diffusion
 
