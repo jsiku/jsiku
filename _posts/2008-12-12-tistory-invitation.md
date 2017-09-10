@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: 티스토리 초대장 10장 배포합니다.
-tags: dqus tistory 초대장 invitation
+tags: tistory 초대장 invitation
+comments: true
 author: siku
 date: '2008-12-12 10:28:00 +0900'
 ---
