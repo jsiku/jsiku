@@ -3,7 +3,8 @@ published: true
 title: facebook connect 설치(워프 가지신 분은 그냥 디스커스 쓰시기를..)
 layout: post
 date: '2009-05-04 10:51:00 +0900'
-tags: disqus dqus facebook connect wordpress
+tags: disqus facebook connect wordpress
+comments: true
 author: siku
 ---
 ** 17년 지금 보면..이러한 것들이 많이 의미가 없어졌습니다.
