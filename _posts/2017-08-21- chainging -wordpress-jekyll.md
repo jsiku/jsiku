@@ -4,7 +4,6 @@ layout: post
 tags: wordpress jekyll
 date: '2017-08-21 08:33:00 +0900'
 title: siku.name 플랫폼 변경
-comments: true
 ---
 # 플랫폼
 **jekyll**
