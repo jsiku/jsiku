@@ -3,7 +3,7 @@ layout: post
 title: '신데렐라 맨, 유나의 집, 그리고 한류'
 date: '2009-05-12 13:42:45 +0900'
 author: Siku
-published: true
+published: false
 tags: 한류
 ---
 오늘 권상우가 외쳤다. 형!!!!! 여기서 박장대소가 터졌는데...
