@@ -13,7 +13,7 @@ layout: default
 	      
     {% assign tags = page.tags %}
 	      {% for tag in tags %}
-	      <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}{{tag.size}}</a>
+	      <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}({{tag.size}})</a>
 	     {% endfor %}
 	      
       </span> |
