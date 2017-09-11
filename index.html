@@ -7,8 +7,8 @@ layout: default
                 <h2>{{ site.harmony.description }}</h2>
                 {% include header-links.html %}                
            
-{% unless post.tags contains 'memo' %}
 {% for post in site.posts %}
+{% unless post.tags contains 'memo' %}
 {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
 {% capture nmonth %}{{ post.next.date | date: '%m%Y' }}{% endcapture %}
 {% if month != nmonth %}
@@ -17,8 +17,7 @@ layout: default
 {% endif %}
 
         <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
-
+{% unless post.tags contains 'memo' %}
 {% endfor %}
-{% endunless %}        
             </div>
 </header>
