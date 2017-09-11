@@ -10,8 +10,8 @@ published: true
   <span style="font-size: {{ tag | last | size | times: 1000 | divided_by: site.tags.size | plus: 70  }}%">
 {% unless tag.first == 'memo' %}
     <a href="#{{ tag | first | slugize }}">
-      {{ tag | first }}
-    </a> &nbsp;&nbsp;
+      {{ tag | first }},{{site.tags[ tag | last ].size}}
+    </a> &nbsp;&nbsp;
     {% endunless %}
   </span>
 {% endfor %}
