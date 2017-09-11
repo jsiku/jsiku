@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Sample post from harmony
-date: {}
 description: >-
   Just a sample post to show some of the typography elements supported from
   harmony theme.
 categories:
-  - blog
+ - blog
 permalink: sample-post
 published: false
 ---
