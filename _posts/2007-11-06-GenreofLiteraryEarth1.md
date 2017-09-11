@@ -1,6 +1,6 @@
 ---
 layout : post
-title: 장르문학의 지구(1)
+title: 장르문학의 지구 1
 date: '2007-11-06 03:24:00 +0900'
 author: Siku_textcube
 published: false
