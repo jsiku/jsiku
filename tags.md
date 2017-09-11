@@ -7,7 +7,7 @@ published: true
 
 <ul class="tag-cloud">
 {% for tag in site.tags %}
-  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 700  }}%">
 {% unless tag.first == 'memo' %}
     <a href="#{{ tag | first | slugize }}">
       {{ tag | first }}
