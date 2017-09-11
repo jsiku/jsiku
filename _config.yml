@@ -18,7 +18,7 @@ harmony:
   # It will appear in your document head meta (for Google search results) and 
   # in your feed.xml site description.
   meta_description: > # 
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  basetheme: theme-base-03 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Jeongsik Cho
     email: 
