@@ -11,8 +11,7 @@ published: true
 {% unless tag.first == 'memo' %}
     <a href="#{{ tag | first | slugize }}">
       {{ tag | first }}
-    </a> &nbsp;&nbsp;
-    {% endunless %}
+    </a> {% endunless %}
   </span>
 {% endfor %}
 </ul>
