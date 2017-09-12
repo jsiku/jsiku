@@ -1,6 +1,6 @@
 ---
 layout : post
-title: &quot;Cyworld shuts down US cyworld&quot; 에고 이럴수가..
+title: Cyworld shuts down US cyworld 에고 이럴수가..
 date: '2009-11-06 07:12:00 +0900'
 author: Siku
 published: true
