@@ -5,6 +5,7 @@ tags: HEROS PRIDE UFC MMA 독보
 title: 'UFC의 능력부족, 한국선수들의 부각, 데니스 강'
 date: '2007-11-01 09:27:00 +0900'
 author: siku_textcube
+comments: true
 ---
 # **17년 지금, 이 글도 틀렸다** #
 
