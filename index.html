@@ -1,7 +1,7 @@
 ---
 layout: index
 ---
-
+<div class="page-content wc-container">
 {% for post in site.posts %}
             {% unless post.tags contains 'memo' %}
             {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
@@ -13,4 +13,4 @@ layout: index
                         <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
             {% endunless %}
 {% endfor %}
-         
+</div>
