@@ -3,13 +3,6 @@ layout: default
 permalink: /comments/
 title: Recent comments
 ---
-<header class="main-header">
-            <div class="wc-container">
-                <h1><a href="{{ site.baseurl }}/">{{ site.harmony.name }}</a></h1>
-                <h2>{{ site.harmony.description }}</h2>
-                {% include header-links.html %}                
-            </div>
-        </header>           
 <div class="page-content wc-container">
 	<div class="post">
 		<h1>{{ page.title }}</h1>
