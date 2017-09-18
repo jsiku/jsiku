@@ -1,9 +1,13 @@
 ---
-layout: index
+layout: default
 ---
 <header class="main-header">
-
-<div class="wc-container">
+            <div class="wc-container">
+            <h1><a href="{{ site.baseurl }}/">{{ site.harmony.name }}</a></h1>
+            <h2>{{ site.harmony.description }}</h2>
+                {% include header-links.html %}                
+            </div>
+            
             {% for post in site.posts %}
             {% unless post.tags contains 'memo' %}
             {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
@@ -12,8 +16,7 @@ layout: index
                                     {% if forloop.index != 1 %}</ul>{% endif %}
                                     <span>{{ post.date | date: '%Y-%m' }}</span><ul>
                         {% endif %}
-                        <h5 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h5>
+                        <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
             {% endunless %}
 {% endfor %}
-</div>
 </header>
