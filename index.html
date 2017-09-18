@@ -6,7 +6,7 @@ layout: default
             <h1><a href="{{ site.baseurl }}/">{{ site.harmony.name }}</a></h1>
             <h2>{{ site.harmony.description }}</h2>
                 {% include header-links.html %}                
-            </div>
+            
             
             {% for post in site.posts %}
             {% unless post.tags contains 'memo' %}
@@ -19,4 +19,5 @@ layout: default
                         <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
             {% endunless %}
 {% endfor %}
+            </div>
 </header>
