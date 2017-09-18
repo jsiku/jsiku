@@ -12,7 +12,7 @@ layout: index
                                     {% if forloop.index != 1 %}</ul>{% endif %}
                                     <span>{{ post.date | date: '%Y-%m' }}</span><ul>
                         {% endif %}
-                        <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+                        <h4 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
             {% endunless %}
 {% endfor %}
 </div>
