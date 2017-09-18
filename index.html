@@ -1,7 +1,7 @@
 ---
 layout: index
 ---
-<div class="main-header">
+<div class="indexcontainer">
 {% for post in site.posts %}
             {% unless post.tags contains 'memo' %}
             {% capture month %}{{ post.date | date: '%m%Y' }}{% endcapture %}
