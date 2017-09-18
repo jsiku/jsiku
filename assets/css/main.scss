@@ -183,7 +183,7 @@ a {
   @extend .default-anchor;
 }
 
-header.main-header, footer.main-footer, .indexcontainer {
+header.main-header, footer.main-footer {
   p,address {
     @include font-size(12px);
     @include MQ(M) {
@@ -192,7 +192,7 @@ header.main-header, footer.main-footer, .indexcontainer {
   }
 }
 
-header.main-header, .indexcontainer {
+header.main-header {
   color: $base-00;
   border-top: 5px $base-00 solid;
 
@@ -480,7 +480,7 @@ body.theme-base-01 {
     color: $base-07;
   }
 
-  header.main-header, .indexcontainer {
+  header.main-header {
     color: $base-01;
     ul li { 
       color: $base-08;
@@ -500,7 +500,7 @@ body.theme-base-01 {
 
 --------------------------------- */
 
-header.main-header, .indexcontainer { 
+header.main-header { 
   padding: 1em 0;
   @include MQ(M) { padding: 2em 0; }
 }
