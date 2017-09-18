@@ -1,6 +1,8 @@
 ---
 layout: index
 ---
+<div class="indexcontainer">
+
 <div class="wc-container">
             {% for post in site.posts %}
             {% unless post.tags contains 'memo' %}
@@ -13,4 +15,5 @@ layout: index
                         <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
             {% endunless %}
 {% endfor %}
+</div>
 </div>
