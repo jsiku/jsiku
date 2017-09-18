@@ -183,7 +183,7 @@ a {
   @extend .default-anchor;
 }
 
-header.main-header, footer.main-footer {
+header.main-header, footer.main-footer, div.indexcontainer {
   p,address {
     @include font-size(12px);
     @include MQ(M) {
@@ -192,7 +192,7 @@ header.main-header, footer.main-footer {
   }
 }
 
-header.main-header {
+header.main-header, div.indexcontainer {
   color: $base-00;
   border-top: 5px $base-00 solid;
 
