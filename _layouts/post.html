@@ -33,18 +33,19 @@ layout: default
 	</div>
 
 
+            
 	{% if site.related_posts %}
 	<div class="related">
 		<h4>Related Posts</h4>
 		<ul class="posts">
-            {% unless post.tags contains 'memo' %}
                	{% for post in site.related_posts limit:5 %}
-		    <li>
+	{% unless post.tags contains 'memo' %}
+			<li>
 			  <span>{{ page.date | date: "%Y-%m-%d" }}&raquo;</span>
 			  <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 		    </li>
+				{% endunless %}
 		    {% endfor %}
-	{% endunless %}
 		</ul>
 	</div>
 	{% endif %}
