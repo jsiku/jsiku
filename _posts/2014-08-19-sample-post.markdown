@@ -8,6 +8,7 @@ categories:
  - blog
 permalink: sample-post
 published: false
+author: gayanvirajith
 ---
 
 Just a sample post to show some of the *typography* elements supported from 
