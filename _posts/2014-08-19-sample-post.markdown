@@ -7,7 +7,7 @@ description: >-
 categories:
  - blog
 permalink: sample-post
-published: false
+published: true
 author: gayanvirajith
 ---
 
