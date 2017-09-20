@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: 미흡하지만 jekyll로 교체 완료
 tags:
   - jekyll
