@@ -7,7 +7,7 @@ tags:
   - 향후 블로깅 방향
 layout: post
 comments: true
-date: '2017--09-19 23:20:00 +0900'
+date: '2017-09-19 23:20:00 +0900'
 related:
   - siku.name 플랫폼 변경
   - SNS의 사용과 비용
