@@ -1,5 +1,5 @@
 ---
-layout: external
+layout: post
 published: true
 date: '2017-10-06 07:03 +0900'
 title: 다른 도메인 활용방안
