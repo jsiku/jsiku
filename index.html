@@ -15,7 +15,7 @@ layout: default
 
             {% for post in site.posts %}
             {% unless post.tags contains 'memo' %}
-                        <h3 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h3>
+                        <h4 class="post-title"><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h4>
  <span>{{ post.date | date: '%F' }}</span>
             {% endunless %}
 {% endfor %}
