@@ -10,10 +10,10 @@ url: http://siku.name
 # url: http://127.0.0.1:4000  
 
 # Turn on another folder
-collections:
-  memos:
-    output: true
-    permalink: /memos/:path/
+#collections:
+#  memos:
+#    output: true
+#    permalink: /memos/:path/
 
 # Harmony theme configuration. Please change accordingly.
 harmony:
