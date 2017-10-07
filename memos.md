@@ -5,7 +5,7 @@ permalink: /memos/
 published: true
 ---
 
-{% for post in site.memos reserved %}
+{% for post in site.memos reversed %}
 
 <p>{{post.content}}
 {{post.date | date: '%F'}}
