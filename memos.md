@@ -5,10 +5,10 @@ permalink: /memos/
 published: true
 ---
 
-{% for post in site.posts %}
-{% if post.tags contains 'memo' %}
+{% for post in site.memos reserved %}
+
 <p>{{post.content}}
-{{post.date | date: '%Y-%m-%d'}}
+{{post.date | date: '%F'}}
 {% if post %}
     {% assign tags = post.tags %}
   {% else %}
@@ -21,5 +21,5 @@ published: true
    {% endfor %}
 
 </p>
-{% endif %}
+
 {% endfor %}
