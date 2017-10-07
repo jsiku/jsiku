@@ -14,14 +14,7 @@ layout: default
             <div class="wc-container">
 
             {% for post in site.posts %}
-            {% unless post.tags contains 'memo' %}
-
-
                         <div><h6><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h6><span>{{ post.date | date: '   %F' }}</span></div>
-
-
-
-            {% endunless %}
 {% endfor %}
             </div>
 
