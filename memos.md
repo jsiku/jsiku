@@ -4,14 +4,10 @@ layout: page
 permalink: /memos/
 ---
 
-{% for post in site.memos %}
-<p>{{post.content}}
-{{post.date | date: '%Y-%m-%d'}}
-{% if post %}
-    {% assign tags = post.tags %}
-  {% else %}
-    {% assign tags = page.tags %}
-  {% endif %}
+{% for memo in site.memos %}
+<p>{{memo.content}}
+{{memo.date | date: '%Y-%m-%d'}}
+    {% assign tags = memo.tags %}
   {% for tag in tags %}
   <code><a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a></code>
   {% endfor %}
