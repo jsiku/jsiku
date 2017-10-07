@@ -9,6 +9,12 @@ url: http://siku.name
 # Localhost 
 # url: http://127.0.0.1:4000  
 
+# Turn on another folder
+collections:
+  memos:
+    output: true
+    permalink: /memos/:path/
+
 # Harmony theme configuration. Please change accordingly.
 harmony:
   name: sikuname
@@ -37,11 +43,6 @@ harmony:
     pinterest: 
   # Toggle disclaimer in footer
   show_disclaimer: true
-
-collections:
-  memos:
-    output: true
-    permalink: /memos/:path/
 
 # Conversion / Build settings 
 markdown:    kramdown
