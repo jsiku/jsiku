@@ -6,7 +6,7 @@ permalink: /memos/
 
 {% for post in site.memos %}
 <p>{{post.content}}
-{{post.date | date: '%F'}}
+{{post.date | date: '%Y-%m-%d'}}
 {% if post %}
     {% assign tags = post.tags %}
   {% else %}
